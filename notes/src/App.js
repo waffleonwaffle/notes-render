@@ -52,7 +52,7 @@ const App = () => {
       .then(newNote => {
         setNotes(notes.concat(newNote))
         setNewNote('')
-      })
+      }) 
   }
 
   const toggleImportanceOf = (id) => {
